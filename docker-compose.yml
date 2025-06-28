@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: munna786/vite-docker-app:latest
+    ports:
+      - "5174:80"
+    restart: unless-stopped
